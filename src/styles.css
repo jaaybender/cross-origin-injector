@@ -1,0 +1,43 @@
+/* Example Custom CSS for HTML Elements */
+
+body {
+  font-family: monospace !important;
+}
+
+#content {
+  min-width: none !important;
+  min-width: unset !important;
+}
+
+#container:has(select) {
+  width: unset !important;
+  height: unset !important;
+  bottom: 5%;
+  left: 18%;
+}
+
+#container > select {
+  position: unset !important;
+}
+
+#videoContainer:has(canvas) {
+  position: unset !important;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#videoContainer > canvas {
+  position: unset !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain;
+}
+
+#videoContainer #titleText {
+  left: 0 !important;
+}
+
+#lineimg {
+  width: 100% !important;
+  left: unset !important;
+}
