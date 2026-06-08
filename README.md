@@ -15,7 +15,7 @@ A browser extension that injects custom CSS and JavaScript into websites, includ
 1. Download or clone this repository.
 
 ```bash
-git clone https://github.com/your-username/crossinject.git
+git clone https://github.com/jaaybender/cross-origin-injector.git
 ```
 
 2. Open your browser's extensions page:
